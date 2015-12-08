@@ -19,7 +19,7 @@ public class MainInterface extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("maininterface.fxml"));
 
-        Scene scene = new Scene(root, 300, 275);
+        Scene scene = new Scene(root, 600, 300);
 
         primaryStage.setTitle("ttorrent GUI");
         primaryStage.setScene(scene);
